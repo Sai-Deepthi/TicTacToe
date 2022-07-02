@@ -5,7 +5,7 @@ var boardValues = [[' ', ' ', ' '],[' ', ' ', ' '],[' ', ' ', ' ']];
 for(let i = 0; i < 9 ; i++){
 var tile = document.createElement("div");
   boardElement.appendChild(tile); 
-  tile.innerText="X"
+  tile.innerText=" "
   tile.classList.add("tile-style");
   tile.addEventListener("click", tileClick);
   var x=Math.floor(i/3);
@@ -36,7 +36,8 @@ function tileClick() {
     boardValues[x][y]="O";
   }
   if(check()) {
-  document.getElementById("whoswinner").innerText = currentPlayer;
+  document.getElementById("whoswinner").innerText = (currentPlayer=='X'? 'O': 'X');
+
   document.getElementById("winnerText").style="opacity : 1";
   }
 }
