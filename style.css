@@ -18,6 +18,7 @@ h1 {
   background-color: teal;
   display: flex;
   font-size: 60px;
+  font-weight: bold;
   justify-content: center;
   line-height: 100px;
   color: antiquewhite;
@@ -36,7 +37,7 @@ h1 {
 }
 
 .winner {
-color: rgb(244, 58, 37);
+color: rgb(212, 133, 105);
 }
 
 .winnerText {
