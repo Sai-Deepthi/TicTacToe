@@ -97,3 +97,9 @@ function check() {
   }
 
 }
+
+
+/*
+Enchancements
+1. Don't let user input anything once anyone wins the game
+*/
