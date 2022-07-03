@@ -20,12 +20,8 @@ h1 {
   font-size: 60px;
   font-weight: bold;
   justify-content: center;
-  line-height: 100px;
+  align-items: center;
   color: antiquewhite;
-}
-.tile-break {
-  display: inline-block
-
 }
 
 #board {

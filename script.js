@@ -11,11 +11,7 @@ var tile = document.createElement("div");
   var x=Math.floor(i/3);
   var y=(i+3)%3;
   tile.id=x + '-' + y;
-  if(i == 2 || i == 5) {
-    //var br = document.createElement("br");
-   // boardElement.appendChild(br);
-    tile.classList.add("tile-break");
-  }
+  
   
 }
 function tileClick() {
